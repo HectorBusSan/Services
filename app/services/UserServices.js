@@ -8,5 +8,8 @@ class UserService{
         let array = [arr[0][1],arr[1][1],arr[2][1],arr[3][1]]
         return array;
     }
+    static updateUserName(user,name){
+        user.name= name;
+    }
 }
 module.exports= UserService;
