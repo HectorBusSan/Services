@@ -11,5 +11,11 @@ class UserService{
     static updateUserName(user,name){
         user.name= name;
     }
+    static getAllUsernames(array){
+       let arr1= array[0].username;
+       let arr2= array[1].username;
+       let arr3 =array[2].username;
+       return arr1+ arr2 +arr3
+    }
 }
 module.exports= UserService;
